@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # 앱 제목 설정
-st.title("수정된 타이틀")
+st.title("타이틀")
 
 # 간단한 설명
 st.write("이 앱은 Streamlit을 사용하여 웹으로 배포된 대시보드 예시입니다.")
@@ -26,3 +26,4 @@ if show_data:
 # 라인 차트 시각화
 st.subheader("데이터 트렌드 (Line Chart)")
 st.line_chart(chart_data)
+# %%
